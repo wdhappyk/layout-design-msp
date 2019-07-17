@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>КМСП</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="bg-grey text-white py-0 py-lg-sm section-dark" id="left-menu-head">
+    <div class="container-fluid px-3 d-block d-lg-none position-relative">
+        <div class="d-flex justify-content-between align-items-center">
+            <button type="button" id="left-menu-open" class="burger-menu-btn">
+                <span class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <a class="left-menu-open f14 font-notosans" href="#"><img class="icon mr-2" src="img/lock.svg" alt=""> Вход</a>
+            <a class="left-menu-open f14 font-notosans" href="#">Регистрация</a>
+            <div class="align-self-center d-flex justify-content-end">
+                <form action="#" method="get" class="position-relative align-self-center d-flex justify-content-end header__search-box">
+                    <input class="f15 flat-input header__input-search" type="text" id="#search-text-mobile" placeholder="Поиск по сайту" required>
+                    <button id="#search-btn-mobile" type="button" class="btn btn-brown btn-icon rounded-circle z-index-1 position-relative">
+                        <img class="icon" src="img/search.svg" alt="">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-lg-block font-notosans">
+        <a href="#">
+            <img class="icon" src="img/preview.svg" alt="">
+            <strong>Версия для слабовидящих</strong>
+        </a>
+    </div>
+</div>
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__info row align-items-center">
+            <div class="col-12 col-lg-5 col-xl-6">
+                <a href="/" class="d-block logo-box">
+                    <img src="img/logo.svg" alt="" class="logo img-fluid">
+                </a>
+            </div>
+            <div class="col-12 col-lg-7 col-xl-6">
+                <div class="d-flex header__info-box">
+                    <div class="header__phone text-nowrap">
+                        <img class="icon ml-lg-lg mr-lg" src="img/phone-call-dark.svg" alt=""><b>8 (342) 217-97-70</b>
+                    </div>
+                    <div>
+                        <a href="#" class="btn-inline text-nowrap">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="left-menu" class="bg-cream left-menu">
+        <div class="container">
+            <nav>
+                <ul class="header__nav list-unstyled">
+                    <li class="custom-dropdown">
+                        <a href="#">Получить поддержку</a>
+                        <ul class="list-unstyled header__dropdown custom-dropdown-list">
+                            <li><a href="#" class="active">Long title of submenu item</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">О Корпорации</a>
+                    </li>
+                    <li>
+                        <a href="#">Мероприятия</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li class="flex-fill align-self-center d-none d-lg-flex justify-content-end">
+                        <form action="#" method="get" class="position-relative align-self-center d-flex justify-content-end header__search-box">
+                            <input class="f15 flat-input header__input-search" type="text" id="#search-text" placeholder="Поиск по сайту" required>
+                            <button id="#search-btn" type="button" class="btn btn-brown btn-icon rounded-circle z-index-1 position-relative">
+                                <img class="icon" src="img/search.svg" alt="">
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="container d-none d-xl-block">
+    <div id="main-slider" class="carousel slide main-slider" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/main-img.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="img/main-img.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="img/main-img.jpg" class="d-block w-100" alt="">
+            </div>
+        </div>
+        <a class="carousel-control-prev justify-content-start" href="#main-slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Предыдущий</span>
+        </a>
+        <a class="carousel-control-next justify-content-end" href="#main-slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Следующий</span>
+        </a>
+    </div>
+</div>
+<section class="section">
+    <div class="container">
+        <h2 class="text-uppercase text-lg-left text-center">
+            <b><span class="text-brown">Услуги центра</span> <span class="text-light-brown">«Мой Бизнес»</span></b>
+        </h2>
+        <div class="row">
+            <div class="сol-12 col-lg-4 col-xxl-3 pr-xxl-0">
+                <div class="custom-collapse-box">
+                    <div class="card rounded-0 p-0">
+                        <a class="d-block px-4 py-3" data-toggle="collapse" href="#collapse-filter-stages" role="button" aria-expanded="false" aria-controls="collapse-filter-stages">
+                            <b>Этапы развития бизнеса</b> <span class="badge badge-dark-orange mx-1">2</span>
+                            <span id="arrow-collapse-stages" class="icon icon-arrow-up float-right mt-2"></span>
+                        </a>
+                    </div>
+                    <div id="collapse-filter-stages" data-arrow="arrow-collapse-stages" class="collapse show custom-collapse-content position-relative">
+                        <div class="p-4">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customControl1">
+                                <label class="custom-control-label" for="customControl1">Будущий</label>
+                            </div>
+                            <div class="custom-control custom-checkbox mt-1">
+                                <input type="checkbox" class="custom-control-input" id="customControl2">
+                                <label class="custom-control-label" for="customControl2">Действующий</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-collapse-box">
+                    <div class="card rounded-0 p-0">
+                        <a class="d-block px-4 py-3" data-toggle="collapse" href="#collapse-filter-type" role="button" aria-expanded="false" aria-controls="collapse-filter-type">
+                            <b>Вид поддержки</b>
+                            <span id="arrow-collapse-type" class="icon icon-arrow-down float-right mt-2"></span>
+                        </a>
+                    </div>
+                    <div id="collapse-filter-type" data-arrow="arrow-collapse-type" class="collapse custom-collapse-content position-relative">
+                        <div class="p-4">
+                            Content
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-collapse-box">
+                    <div class="card rounded-0 p-0">
+                        <a class="d-block px-4 py-3" data-toggle="collapse" href="#collapse-filter-industry" role="button" aria-expanded="false" aria-controls="collapse-filter-industry">
+                            <b>Отрасль</b>
+                            <span id="arrow-collapse-industry" class="icon icon-arrow-down float-right mt-2"></span>
+                        </a>
+                    </div>
+                    <div id="collapse-filter-industry" data-arrow="arrow-collapse-industry" class="collapse custom-collapse-content position-relative">
+                        <div class="p-4">
+                            Content
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 col-xxl-9">
+                <div class="row collapses-flex-list">
+                    <div class="col-12 col-md-6 col-xxl-4 mt-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Открытие бизнеса</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-business" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-md-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Консультации по вопросам бизнеса</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-consult" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-md-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Молодежное предпринимательство</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-yung" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-md-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Социальное предпринимательство</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-social" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    <p>
+                                        <b>Поручительство</b> – альтернатива залога при получении заемного финансирования в финансовых организациях
+                                    </p>
+                                    <p>
+                                        Инструмент направлен на  обеспечение доступа СМСП к кредитным и иным финансовым ресурсам, развития системы гарантий и поручительств по обязательствам СМСП, основанных на кредитных договорах, договорах займа и лизинга.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-md-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Курсы для предпринимателей</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-cources" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-md-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Бизнес-образование</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-bcreate" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-md-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Поручительство по банковским кредитам при недостаточности залога</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-friend" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-md-3 service-collapse">
+                        <div class="custom-card-raise h-100">
+                            <div class="custom-collapse-box h-100">
+                                <a href="#" class="d-flex align-items-stretch h-100 hover-collapse">
+                                    <div class="d-flex align-items-center p-3">
+                                        <img src="img/new-construction.svg" class="icon mr-4" alt=""> <span class="text-overflow">Финансирование проектов развития промышленных предприятий</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse-open-donate" class="collapse custom-collapse-content border-top-0 custom-card-collapse f14 hover-collapse-content">
+                                <div class="p-4">
+                                    Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-lg mt-3">
+            <a href="#" class="btn-inline">Все продукты <img class="ml-2" src="img/arrow-right-white.svg" alt=""></a>
+        </div>
+    </div>
+</section>
+<section class="bg-very-light-grey section">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h3 class="text-dark-brown text-uppercase"><b>Ближайшие мероприятия</b></h3>
+            <a href="#" class="btn btn-brown d-none d-md-block">
+                Все мероприятия <img class="ml-2" src="img/arrow-right-white.svg" alt="">
+            </a>
+        </div>
+        <div class="row align-items-stretch">
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-2.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05 16:00">5 декабря 2019 в 16:00, пятница</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Семинар для субъектов малого и среднего предпринимательства пройдёт в Перми</b>
+                            </a>
+                        </h4>
+                    </div>
+                    <hr class="my-0">
+                    <footer class="custom-card-body media">
+                        <img src="img/image%202-1.jpg" alt="" class="rounded-circle mr-3">
+                        <div class="media-body">
+                            <b>Лариса Овсяникова</b>
+                            <p class="mt-1 mb-0 text-light-grey f14 line-height-sm">
+                                эксперт Центра поддержки предпринимательства, практикующий юрист
+                            </p>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-2.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05 16:00">5 декабря 2019 в 16:00, пятница</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Семинар для субъектов малого и среднего предпринимательства пройдёт в Перми</b>
+                            </a>
+                        </h4>
+                    </div>
+                    <hr class="my-0">
+                    <footer class="custom-card-body media">
+                        <img src="img/image%202-1.jpg" alt="" class="rounded-circle mr-3">
+                        <div class="media-body">
+                            <b>Лариса Овсяникова</b>
+                            <p class="mt-1 mb-0 text-light-grey f14 line-height-sm">
+                                эксперт Центра поддержки предпринимательства, практикующий юрист
+                            </p>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-2.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05 16:00">5 декабря 2019 в 16:00, пятница</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Семинар для субъектов малого и среднего предпринимательства пройдёт в Перми</b>
+                            </a>
+                        </h4>
+                    </div>
+                    <hr class="my-0">
+                    <footer class="custom-card-body media">
+                        <div class="media-body">
+                            <b>Лариса Овсяникова</b>
+                            <p class="mt-1 mb-0 text-light-grey f14 line-height-sm">
+                                эксперт Центра поддержки предпринимательства, практикующий юрист
+                            </p>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl d-none d-xxl-block">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-2.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05 16:00">5 декабря 2019 в 16:00, пятница</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Семинар для субъектов малого и среднего предпринимательства пройдёт в Перми</b>
+                            </a>
+                        </h4>
+                    </div>
+                    <hr class="my-0">
+                    <footer class="custom-card-body media">
+                        <div class="media-body">
+                            <b>Лариса Овсяникова</b>
+                            <p class="mt-1 mb-0 text-light-grey f14 line-height-sm">
+                                эксперт Центра поддержки предпринимательства, практикующий юрист
+                            </p>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#" class="btn btn-brown d-inline-block d-md-none mt-xl">
+                Все мероприятия <img class="ml-2" src="img/arrow-right-white.svg" alt="">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h3 class="text-dark-orange text-uppercase"><b>Корпорация МСП</b></h3>
+            <a href="#" class="btn btn-brown d-none d-md-block">
+                Подробнее о корпорации <img class="ml-2" src="img/arrow-right-white.svg" alt="">
+            </a>
+        </div>
+        <div class="row mt-xl">
+            <div class="col-12 col-lg-6">
+                <p class="text-justify">
+                    <b>Фонд развития предпринимательства</b> был создан в Новоуральске в 1992 году по решению Городского совета. Более чем за 20 лет работы Фонд несколько раз менял организационно-правовую форму, но сохранял ориентир на цели, ради которых был создан.
+                </p>
+                <p class="text-justify">
+                    Фонд организован с целью создания благоприятных условий для развития и поддержки малого и среднего предпринимательства на территории города Новоуральска. Деятельность Фонда в основном направлена на развитие механизмов финансовой поддержки предпринимателей и формирование инфраструктуры поддержки малого бизнеса. Помимо этого Фонд уделяет большое внимание консультированию и обучению предпринимателей.
+                </p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <p class="text-justify">
+                    <b>Новоуральский городской округ</b> включает город Новоуральск и 5 сельских населенных пунктов: поселок Мурзинка, село Тарасково, деревни Починок, Пальники и Елани. Новоуральск расположен в 67 км к северу от Екатеринбурга, в верховьях реки Нейва, на берегу Верх-Нейвинского пруда.
+                </p>
+                <p class="text-justify">
+                    Всего в Новоуральском городском округе зарегистрировано более 1,2 тыс. организаций различных организационно — правовых форм и форм собственности, в том числе 73 муниципальных предприятия и учреждения.
+                </p>
+            </div>
+        </div>
+        <div class="row mt-lg align-items-stretch">
+            <div class="col-12 col-lg-6">
+                <div class="custom-card">
+                    <div class="media align-items-center">
+                        <img src="img/coins.svg" alt="" class="icon mr-3">
+                        <div class="media-body text-dark-brown">
+                            Если Вы хотите получить финансирование под свой предпринимательский проект или действующий бизнес - <strong class="text-dark-orange">обращайтесь к нам!</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="custom-card border-top-md-0">
+                    <div class="media align-items-center h-100">
+                        <img src="img/presentation.svg" alt="" class="icon mr-3">
+                        <div class="media-body text-dark-brown">
+                            Если Вам интересно учиться у лучших тренеров особенностям ведения бизнеса - <strong class="text-dark-orange">обращайтесь к нам!</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-xl">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <b class="f36 text-dark-orange">475</b>
+                    <b class="mt-2 text-grey">
+                        проектов на сопровождение режиме “одного окна”
+                    </b>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card border-top-sm-0">
+                    <b class="f36 text-dark-orange">4158</b>
+                    <b class="mt-2 text-grey">
+                        займов выдано на развитие бизнеса
+                    </b>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card border-top-md-0">
+                    <b class="f36 text-dark-orange">314 000</b>
+                    <b class="mt-2 text-grey">
+                        консультаций оказано 15 лет работы
+                    </b>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card border-top-md-0">
+                    <b class="f36 text-dark-orange">15 540</b>
+                    <b class="mt-2 text-grey">
+                        человек посетили наши мероприятия
+                    </b>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#" class="btn btn-brown d-inline-block d-md-none mt-xl">
+                Подробнее о корпорации <img class="ml-2" src="img/arrow-right-white.svg" alt="">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="news bg-very-light-grey section">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h3 class="text-dark-brown text-uppercase"><b>Новости</b></h3>
+            <a href="#" class="btn btn-brown d-none d-md-block">Все новости <img class="ml-2" src="img/arrow-right-white.svg" alt=""></a>
+        </div>
+        <div class="row align-items-stretch justify-content-center">
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-5.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05">5 декабря 2019</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Уведомление о смене наименования АО «ПГФ» и регистрации Устава в новой редакции</b>
+                            </a>
+                        </h4>
+                        <div class="flex mt-2 f14">
+                            <a href="#" class="custom-badge mt-2">Новости компании</a>
+                            <a href="#" class="custom-badge mt-2">Про бизнес</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-5.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05">5 декабря 2019</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Уведомление о смене наименования АО «ПГФ» и регистрации Устава в новой редакции</b>
+                            </a>
+                        </h4>
+                        <div class="flex mt-2 f14">
+                            <a href="#" class="custom-badge mt-2">Новости компании</a>
+                            <a href="#" class="custom-badge mt-2">Про бизнес</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-5.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05">5 декабря 2019 в 16:00</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Уведомление о смене наименования АО «ПГФ» и регистрации Устава в новой редакции</b>
+                            </a>
+                        </h4>
+                        <div class="flex mt-2 f14">
+                            <a href="#" class="custom-badge mt-2">Новости компании</a>
+                            <a href="#" class="custom-badge mt-2">Про бизнес</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-12 col-lg-4 col-xxl-3 mt-xl d-none d-xxl-block">
+                <article class="custom-light-card custom-card-raise h-100">
+                    <img src="img/image-5.jpg" alt="" class="card-img-top rounded-0">
+                    <div class="custom-card-body">
+                        <time class="text-light-grey" datetime="2019-12-05">5 декабря 2019 в 16:00</time>
+                        <h4 class="text-dark-brown">
+                            <a href="#" class="link-grey mt-3 d-inline-block">
+                                <b>Уведомление о смене наименования АО «ПГФ» и регистрации Устава в новой редакции</b>
+                            </a>
+                        </h4>
+                        <div class="flex mt-2 f14">
+                            <a href="#" class="custom-badge mt-2">Новости компании</a>
+                            <a href="#" class="custom-badge mt-2">Про бизнес</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#" class="btn btn-brown d-inline-block d-md-none mt-xl">
+            Все новости <img class="ml-2" src="img/arrow-right-white.svg" alt="">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <h3 class="text-light-brown text-uppercase"><b>Наши партнеры</b></h3>
+        <div class="row mt-xl flex-row flex-nowrap overflow-auto">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%202.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%203.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%204.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%205.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 flex-row flex-nowrap overflow-auto">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise bg-dark-blue">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%207.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise bg-dark-blue">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%207.1.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise bg-dark-blue">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%208.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise bg-dark-blue">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%209.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section pt-0">
+    <div class="container">
+        <h3 class="text-light-brown text-uppercase"><b>Проекты партнеров</b></h3>
+        <div class="row mt-xl flex-row flex-nowrap overflow-auto">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%2010.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%2011.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%2012.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="custom-small-card custom-card-raise">
+                    <a href="#" class="custom-small-card-a">
+                        <img src="img/image%202.jpg" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer bg-grey text-white section pb-xl section-dark">
+    <div class="container">
+        <ul class="footer__links font-notosans">
+           <li><a href="#">Программа по развитию малого<br>и среднего предпринимательства</a></li>
+           <li><a href="#">Карта сайта</a></li>
+           <li><a href="#">Политика конфиденциальности</a></li>
+           <li><a href="#">Раскрытие информации</a></li>
+        </ul>
+        <hr class="my-xl">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 col-lg-5 col-xl-6 f14 footer__info font-notosans">
+                &copy; 2018 АО «Корпорация МСП»<br>
+                Разработка сайтов в Перми - <span class="text-light-brown">веб-студия StartMedia</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg-7 col-xl-6">
+                <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                    <div class="header__phone footer__phone">
+                        <img class="icon mr-lg" src="img/phone-call.svg" alt="">8 (342) 217-97-70
+                    </div>
+                    <div>
+                        <a href="#" class="btn-inline">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>КМСП</title>
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="bg-grey text-white py-0 py-lg-sm section-dark" id="left-menu-head">
+    <div class="container-fluid px-3 d-block d-lg-none position-relative">
+        <div class="d-flex justify-content-between align-items-center">
+            <button type="button" id="left-menu-open" class="burger-menu-btn">
+                <span class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <a class="left-menu-open f14 font-notosans" href="#"><img class="icon mr-2" src="img/lock.svg" alt=""> Вход</a>
+            <a class="left-menu-open f14 font-notosans" href="#">Регистрация</a>
+            <div class="align-self-center d-flex justify-content-end">
+                <form action="#" method="get" class="position-relative align-self-center d-flex justify-content-end header__search-box">
+                    <input class="f15 flat-input header__input-search" type="text" id="#search-text-mobile" placeholder="Поиск по сайту" required>
+                    <button id="#search-btn-mobile" type="button" class="btn btn-brown btn-icon rounded-circle z-index-1 position-relative">
+                        <img class="icon" src="img/search.svg" alt="">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-lg-block font-notosans">
+        <a href="#">
+            <img class="icon" src="img/preview.svg" alt="">
+            <strong>Версия для слабовидящих</strong>
+        </a>
+    </div>
+</div>
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__info row align-items-center">
+            <div class="col-12 col-lg-5 col-xl-6">
+                <a href="/" class="d-block logo-box">
+                    <img src="img/logo.svg" alt="" class="logo img-fluid">
+                </a>
+            </div>
+            <div class="col-12 col-lg-7 col-xl-6">
+                <div class="d-flex header__info-box">
+                    <div class="header__phone text-nowrap">
+                        <img class="icon ml-lg-lg mr-lg" src="img/phone-call-dark.svg" alt=""><b>8 (342) 217-97-70</b>
+                    </div>
+                    <div>
+                        <a href="#" class="btn-inline text-nowrap">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="left-menu" class="bg-cream left-menu">
+        <div class="container">
+            <nav>
+                <ul class="header__nav list-unstyled">
+                    <li class="custom-dropdown">
+                        <a href="#">Получить поддержку</a>
+                        <ul class="list-unstyled header__dropdown custom-dropdown-list">
+                            <li><a href="#">Long title of submenu item</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">О Корпорации</a>
+                    </li>
+                    <li>
+                        <a href="#">Мероприятия</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li class="flex-fill align-self-center d-none d-lg-flex justify-content-end">
+                        <form action="#" method="get" class="position-relative align-self-center d-flex justify-content-end header__search-box">
+                            <input class="f15 flat-input header__input-search" type="text" id="#search-text" placeholder="Поиск по сайту" required>
+                            <button id="#search-btn" type="button" class="btn btn-brown btn-icon rounded-circle z-index-1 position-relative">
+                                <img class="icon" src="img/search.svg" alt="">
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="section py-xl">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+            <li class="breadcrumb-item"><a href="/">Мероприятия</a></li>
+            <li class="breadcrumb-item active" aria-current="page"></li>
+        </ol>
+        <div class="row">
+            <div class="col-12 col-lg-8 py-0">
+                <h2 class="text-dark-brown text-uppercase mb-0">
+                    <b>
+                        Выездная сессия Петербургского<br>
+                        международного<br>
+                        экономического форума
+                    </b>
+                </h2>
+                <div class="row mt-xl font-notosans">
+                    <div class="col-12 col-md-6">
+                        <img src="img/activity-graph.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div class="col-12 col-md-6 mt-lgp mt-md-0">
+                        <data value="2019-08-10 10:05"><b>10 авг 2019 в 10:05, суббота</b></data>
+                        <hr class="bg-very-light-grey my-lgp">
+                        <b class="f13">Лариса Овсянникова</b>
+                        <p class="text-grey f13">эксперт  Центра поддержки предпринимательства, практикующий юрист</p>
+                        <hr class="bg-very-light-grey my-lgp">
+                        <a href="#" class="btn btn-inline">Записаться</a>
+                    </div>
+                </div>
+                <p class="text-grey  my-xl f15">
+                    Активы показывают какие средства использует бизнес, а обязательства и собственный капитал показывают кто предоставил эти средства и в каком размере. Все ресурсы, которыми обладает предприятие, могут быть предоставлены либо собственниками (капитал), либо кредиторами (обязательства). Поэтому сумма требований кредиторов вместе с требованиями владельцев должна быть равна сумме активов. Это также обусловлено тем, что при отражении операций на счетах в балансе соблюдается принцип двойной записи.
+                </p>
+                <h3 class="text-dark-brown text-uppercase pt-2">
+                    <b>Заголовок</b>
+                </h3>
+                <p class="text-grey  my-lgp f15">
+                    В соответствии с международными правилами финансовой отчётности, баланс содержит данные  об активах, обязательствах и собственном капитале. В советской, российской, украинской бухгалтерской практике — способ группировки активов и пассивов организации в денежном выражении. Бухгалтерский баланс характеризует имущественное и финансовое состояния организации в денежной оценке на отчётную дату.<br>
+                    <br>
+                    Активы показывают какие средства использует бизнес, а обязательства и собственный капитал показывают кто предоставил эти средства и в каком размере. Все ресурсы, которыми обладает предприятие, могут быть предоставлены либо собственниками (капитал), либо кредиторами (обязательства). Поэтому сумма требований кредиторов вместе с требованиями владельцев  должна быть равна сумме активов. Это также обусловлено тем, что при отражении операций  на счетах в балансе соблюдается принцип двойной записи.
+                </p>
+                <img src="img/activity-youtube.jpg" alt="" class="img-fluid w-100">
+                <div class="card rounded-0 p-4 my-xl">
+                    <div class="media align-items-center">
+                        <img src="img/quote.svg" alt="" class="mr-4">
+                        <div class="media-body f15 text-black ">
+                            <em>
+                                Подобные документы могут называться «Концепция ИБ», «Регламент управления ИБ», «Политика ИБ», «Технический стандарт ИБ» и т. п. Область распространения документов верхнего уровня обычно не ограничивается, однако данные документы могут выпускаться и в двух редакциях — для внешнего и внутреннего использования.
+                            </em>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-dark-brown text-uppercase pt-2">
+                    Заголовок
+                </h3>
+                <p class="text-grey  my-lgp f15">
+                    В соответствии с международными правилами финансовой отчётности, баланс содержит данные  об активах, обязательствах и собственном капитале. В советской, российской, украинской бухгалтерской практике — способ группировки активов и пассивов организации в денежном выражении. Бухгалтерский баланс характеризует имущественное и финансовое состояния организации в денежной оценке на отчётную дату.<br>
+                    <br>
+                    Активы показывают какие средства использует бизнес, а обязательства и собственный капитал показывают кто предоставил эти средства и в каком размере. Все ресурсы, которыми обладает предприятие, могут быть предоставлены либо собственниками (капитал), либо кредиторами (обязательства). Поэтому сумма требований кредиторов вместе с требованиями владельцев  должна быть равна сумме активов. Это также обусловлено тем, что при отражении операций  на счетах в балансе соблюдается принцип двойной записи.
+                </p>
+                <ul class="f15 text-grey custom-list-ul">
+                    <li>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.</li>
+                    <li>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.</li>
+                    <li>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.</li>
+                </ul>
+                <div class="card rounded-0 p-4 my-xl">
+                    <div class="media align-items-center">
+                        <img src="img/information.svg" alt="" class="mr-4">
+                        <div class="media-body f15 text-black ">
+                            <em>
+                                Подобные документы могут называться «Концепция ИБ», «Регламент управления ИБ», «Политика ИБ», «Технический стандарт ИБ» и т. п. Область распространения документов верхнего уровня обычно не ограничивается, однако данные документы могут выпускаться и в двух редакциях — для внешнего и внутреннего использования.
+                            </em>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-bordered mb-xl">
+                    <thead class="bg-tgrey text-grey text-center">
+                    <tr>
+                        <th class="px-4 py-3" scope="col">Column 1</th>
+                        <th class="px-4 py-3" scope="col">Column 2</th>
+                        <th class="px-4 py-3" scope="col">Column 3</th>
+                    </tr>
+                    </thead>
+                    <tbody class="text-light-grey f15">
+                    <tr>
+                        <td class="px-4 py-3 align-middle">
+                            Pellentesque pellentesque eget tempor<br>
+                            tellus. Fusce lacllentesque eget tempor<br>
+                            tellus ellentesque pelleinia tempor<br>
+                            malesuada.</td>
+                        <td class="px-4 py-3 align-middle text-center">Статус</td>
+                        <td class="px-4 py-3 align-middle text-right">1800</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-3 align-middle">Pellentesque pellentesque</td>
+                        <td class="px-4 py-3 align-middle text-center">Статус 2</td>
+                        <td class="px-4 py-3 align-middle text-right">1800</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-3 align-middle">Pellentesque pellentesque</td>
+                        <td class="px-4 py-3 align-middle text-center">Статус 3</td>
+                        <td class="px-4 py-3 align-middle text-right">1800</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4 class="text-dark-brown text-uppercase pt-2">
+                    Заголовок
+                </h4>
+                <p class="text-grey  my-lgp f15">
+                    В соответствии с международными правилами финансовой отчётности, баланс содержит данные  об активах, обязательствах и собственном капитале. В советской, российской, украинской бухгалтерской практике — способ группировки активов и пассивов организации в денежном выражении. Бухгалтерский баланс характеризует имущественное и финансовое состояния организации в денежной оценке на отчётную дату.<br>
+                    <br>
+                    Активы показывают какие средства использует бизнес, а обязательства и собственный капитал показывают кто предоставил эти средства и в каком размере. Все ресурсы, которыми обладает предприятие, могут быть предоставлены либо собственниками (капитал), либо кредиторами (обязательства). Поэтому сумма требований кредиторов вместе с требованиями владельцев  должна быть равна сумме активов. Это также обусловлено тем, что при отражении операций  на счетах в балансе соблюдается принцип двойной записи.
+                </p>
+                <ol class="f15 text-grey custom-list-ol">
+                    <li>
+                        Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.
+                        <ol class="f15 text-grey custom-list-ol">
+                            <li>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.</li>
+                            <li>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.</li>
+                        </ol>
+                    </li>
+                    <li>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.</li>
+                    <li>Pellentesque pellentesque eget tempor tellus. Fusce lacllentesque eget tempor tellus ellentesque pelleinia tempor malesuada.</li>
+                </ol>
+                <div class="bg-cream py-lg mt-xl">
+                    <h3 class="text-dark-brown text-uppercase px-lgp">
+                        <b>Фотографии</b>
+                    </h3>
+                    <div class="row no-gutters justify-content-around px-3 flex-wrap">
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2 d-none more-photo">
+                            <img src="img/photo-1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 p-2">
+                            <a class="btn btn-brown rounded-0 w-100 h-100 d-flex align-items-center text-center px-2 justify-content-center"
+                               href="#"
+                               id="more-photo"
+                            >
+                                <b>Посмотреть все фотографии</b>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex justify-content-between mb-xl flex-wrap">
+                    <a href="#" class="btn btn-brown mt-xl">Вернуться к списку</a>
+                    <div class="font-notosans text-dark-brown mt-xl">
+                        <b>Поделиться ссылкой:</b>
+                        <a href="#" class="ml-sm"><img src="img/social-vk.png" alt="ВКонтакте"></a>
+                        <a href="#" class="ml-sm"><img src="img/social-fb.png" alt="ВКонтакте"></a>
+                        <a href="#" class="ml-sm"><img src="img/social-gp.png" alt="ВКонтакте"></a>
+                        <a href="#" class="ml-sm"><img src="img/social-twitter.png" alt="ВКонтакте"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 font-notosans">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-12">
+                        <article class="custom-card p-0 custom-card-raise h-100">
+                            <img src="img/image-2.jpg" alt="" class="card-img-top rounded-0">
+                            <div class="custom-card-body">
+                                <time class="text-light-grey" datetime="2019-12-05 16:00">5 декабря 2019 в 16:00, пятница</time>
+                                <h4 class="text-dark-brown">
+                                    <a href="#" class="link-grey mt-3 d-inline-block">
+                                        <b>Семинар для субъектов малого и среднего предпринимательства пройдёт в Перми</b>
+                                    </a>
+                                </h4>
+                            </div>
+                            <hr class="my-0">
+                            <footer class="custom-card-body media">
+                                <img src="img/image%202-1.jpg" alt="" class="rounded-circle mr-3">
+                                <div class="media-body">
+                                    <b>Лариса Овсяникова</b>
+                                    <p class="mt-1 mb-0 text-light-grey f14 line-height-sm">
+                                        эксперт Центра поддержки предпринимательства, практикующий юрист
+                                    </p>
+                                </div>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 mt-xl mt-md-0 mt-lg-xl">
+                        <article class="custom-card p-0 custom-card-raise h-100">
+                            <img src="img/image-2.jpg" alt="" class="card-img-top rounded-0">
+                            <div class="custom-card-body">
+                                <time class="text-light-grey" datetime="2019-12-05 16:00">5 декабря 2019 в 16:00, пятница</time>
+                                <h4 class="text-dark-brown">
+                                    <a href="#" class="link-grey mt-3 d-inline-block">
+                                        <b>Семинар для субъектов малого и среднего предпринимательства пройдёт в Перми</b>
+                                    </a>
+                                </h4>
+                            </div>
+                            <hr class="my-0">
+                            <footer class="custom-card-body media">
+                                <img src="img/image%202-1.jpg" alt="" class="rounded-circle mr-3">
+                                <div class="media-body">
+                                    <b>Лариса Овсяникова</b>
+                                    <p class="mt-1 mb-0 text-light-grey f14 line-height-sm">
+                                        эксперт Центра поддержки предпринимательства, практикующий юрист
+                                    </p>
+                                </div>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer bg-grey text-white section pb-xl section-dark">
+    <div class="container">
+        <ul class="footer__links font-notosans">
+            <li><a href="#">Программа по развитию малого<br>и среднего предпринимательства</a></li>
+            <li><a href="#">Карта сайта</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Раскрытие информации</a></li>
+        </ul>
+        <hr class="my-xl">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 col-lg-5 col-xl-6 f14 footer__info font-notosans">
+                &copy; 2018 АО «Корпорация МСП»<br>
+                Разработка сайтов в Перми - <span class="text-light-brown">веб-студия StartMedia</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg-7 col-xl-6">
+                <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                    <div class="header__phone footer__phone">
+                        <img class="icon mr-lg" src="img/phone-call.svg" alt="">8 (342) 217-97-70
+                    </div>
+                    <div>
+                        <a href="#" class="btn-inline">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $('#more-photo').on('click', function(e) {
+        e.preventDefault();
+
+        $('.more-photo').removeClass('d-none');
+        $(this).parent().addClass('d-none');
+    });
+</script>
+</body>
+</html>

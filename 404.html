@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>КМСП</title>
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="bg-grey text-white py-0 py-lg-sm section-dark" id="left-menu-head">
+    <div class="container-fluid px-3 d-block d-lg-none position-relative">
+        <div class="d-flex justify-content-between align-items-center">
+            <button type="button" id="left-menu-open" class="burger-menu-btn">
+                <span class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <a class="left-menu-open f14 font-notosans" href="#"><img class="icon mr-2" src="img/lock.svg" alt=""> Вход</a>
+            <a class="left-menu-open f14 font-notosans" href="#">Регистрация</a>
+            <div class="align-self-center d-flex justify-content-end">
+                <form action="#" method="get" class="position-relative align-self-center d-flex justify-content-end header__search-box">
+                    <input class="f15 flat-input header__input-search" type="text" id="#search-text-mobile" placeholder="Поиск по сайту" required>
+                    <button id="#search-btn-mobile" type="button" class="btn btn-brown btn-icon rounded-circle z-index-1 position-relative">
+                        <img class="icon" src="img/search.svg" alt="">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-lg-block font-notosans">
+        <a href="#">
+            <img class="icon" src="img/preview.svg" alt="">
+            <strong>Версия для слабовидящих</strong>
+        </a>
+    </div>
+</div>
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__info row align-items-center">
+            <div class="col-12 col-lg-5 col-xl-6">
+                <a href="/" class="d-block logo-box">
+                    <img src="img/logo.svg" alt="" class="logo img-fluid">
+                </a>
+            </div>
+            <div class="col-12 col-lg-7 col-xl-6">
+                <div class="d-flex header__info-box">
+                    <div class="header__phone text-nowrap">
+                        <img class="icon ml-lg-lg mr-lg" src="img/phone-call-dark.svg" alt=""><b>8 (342) 217-97-70</b>
+                    </div>
+                    <div>
+                        <a href="#" class="btn-inline text-nowrap">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="left-menu" class="bg-cream left-menu">
+        <div class="container">
+            <nav>
+                <ul class="header__nav list-unstyled">
+                    <li class="custom-dropdown">
+                        <a href="#">Получить поддержку</a>
+                        <ul class="list-unstyled header__dropdown custom-dropdown-list">
+                            <li><a href="#">Long title of submenu item</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">О Корпорации</a>
+                    </li>
+                    <li>
+                        <a href="#">Мероприятия</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li class="flex-fill align-self-center d-none d-lg-flex justify-content-end">
+                        <form action="#" method="get" class="position-relative align-self-center d-flex justify-content-end header__search-box">
+                            <input class="f15 flat-input header__input-search" type="text" id="#search-text" placeholder="Поиск по сайту" required>
+                            <button id="#search-btn" type="button" class="btn btn-brown btn-icon rounded-circle z-index-1 position-relative">
+                                <img class="icon" src="img/search.svg" alt="">
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="section">
+    <div class="container text-center">
+        <img src="img/404.svg" alt="" class="img-fluid d-block mx-auto">
+        <h2 class="text-dark-orange text-uppercase">
+            <b>Страница не найдена</b>
+        </h2>
+        <p class="font-notosans f15 text-grey mb-xl">
+            Неправильно набран адрес, или такой страницы на сайте<br>
+            больше не существует.
+        </p>
+        <a href="/" class="btn btn-grey btn-inline mt-1 mx-1">На главную</a>
+        <a href="/" class="btn btn-inline mt-1 mx-1">Получить поддержку</a>
+    </div>
+</section>
+<footer class="footer bg-grey text-white section pb-xl section-dark">
+    <div class="container">
+        <ul class="footer__links font-notosans">
+            <li><a href="#">Программа по развитию малого<br>и среднего предпринимательства</a></li>
+            <li><a href="#">Карта сайта</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Раскрытие информации</a></li>
+        </ul>
+        <hr class="my-xl">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 col-lg-5 col-xl-6 f14 footer__info font-notosans">
+                &copy; 2018 АО «Корпорация МСП»<br>
+                Разработка сайтов в Перми - <span class="text-light-brown">веб-студия StartMedia</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg-7 col-xl-6">
+                <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                    <div class="header__phone footer__phone">
+                        <img class="icon mr-lg" src="img/phone-call.svg" alt="">8 (342) 217-97-70
+                    </div>
+                    <div>
+                        <a href="#" class="btn-inline">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
